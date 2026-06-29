@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TMS_ANDROID</string>
+    <string name="lesson_num">Урок %1$d</string>
+    <string name="task_num">Задание %1$d</string>
+    <string name="lesson_name">Урок %1$d</string>
+    <string name="task_name">Задание %1$d</string>
+    <string name="lesson_17_task_1">Урок 17 Задание 1</string>
+    <string name="explore_tasks">Посмотреть задания</string>
+    <string name="click_to_view">Нажмите, чтобы открыть</string>
+    <string name="tasks_count">Заданий: %1$d</string>
+    <string name="android_dev">Разработка под Android</string>
+
+    <string name="img">Изображение</string>
+    <string name="load_image">Загрузить изображение</string>
+    <string name="image_loaded">Изображение загружено</string>
+    <string name="registration">Регистрация</string>
+    <string name="enter_your_name">Введите ваше имя</string>
+    <string name="name">Имя</string>
+    <string name="enter_your_password">Введите ваш пароль</string>
+    <string name="enter_your_phone">Введите ваш телефон</string>
+    <string name="dark_mode">Тёмная тема</string>
+    <string name="log_out">Выйти</string>
+    <string name="change_password">Изменить пароль</string>
+    <string name="online">в сети</string>
+    <string name="downloading">загрузка…</string>
+    <string name="start_download">Начать загрузку</string>
+    <string name="task6_title">Отличный контент</string>
+    <string name="task6_description">Это подробное описание отличного контента, который вы собираетесь загрузить. Нажмите кнопку ниже, чтобы начать процесс имитации.</string>
+    <string name="create_account">Создать аккаунт</string>
+    <string name="account_created">Аккаунт успешно создан!</string>
+    <string name="registration_subtitle">Пожалуйста, заполните ваши данные</string>
+    <string name="coming_soon">Скоро будет</string>
+    <string name="user_info">Данные пользователя</string>
+    <string name="age">Возраст</string>
+    <string name="open_profile">Открыть профиль</string>
+    <string name="invalid_input">Пожалуйста, введите корректные данные</string>
+    <string name="profile">Профиль</string>
+    <string name="profile_name_format">Имя: %1$s</string>
+    <string name="profile_age_format">Возраст: %1$d</string>
+
+    <string name="fragment_livecycle">Жизненный цикл фрагмента</string>
+    <string name="current_state">Текущее состояние: %1$s</string>
+    <string name="logcat_hint">Проверьте Logcat для подробных логов!\nTAG: %1$s</string>
+    <string name="logs_placeholder">Логи появятся здесь&#8230;</string>
+    <string name="lesson_18_task_3">Урок 18 Задание 3</string>
+    <string name="home">Главная</string>
+    <string name="catalog">Каталог</string>
+    <string name="cart">Корзина</string>
+    <string name="home_fragment">Главный экран</string>
+    <string name="catalog_fragment">Экран каталога</string>
+    <string name="cart_fragment">Экран корзины</string>
+    <string name="already_on_fragment">Вы уже здесь!</string>
+</resources>

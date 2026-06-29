@@ -12,6 +12,40 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TMS_ANDROID">
         <activity
+            android:name=".Lesson18Task3.Lesson18Task3"
+            android:exported="false" />
+        <activity
+            android:name=".Lesson18Task2.Lesson18Task2"
+            android:exported="false" />
+        <activity
+            android:name=".Lesson18Task1.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Lesson18Task1.Lesson18Task1"
+            android:exported="false" />
+        <activity
+            android:name=".Lesson17Task6.Lesson17Task6"
+            android:exported="false" />
+        <activity
+            android:name=".Lesson17Task5.Lesson17Task5"
+            android:exported="false" />
+        <activity
+            android:name=".Lesson17Task4.Lesson17Task4"
+            android:exported="false" />
+        <activity
+            android:name=".Lesson17TAsk2.Lesson17Task2"
+            android:exported="false" />
+        <activity
+            android:name=".Lesson17TAsk3.Lesson17TAsk3"
+            android:exported="false" />
+        <activity
+            android:name=".Lesson17TAsk1.Lesson17Task1"
+            android:exported="false" />
+        <activity
+            android:name=".LessonTasksActivity"
+            android:exported="false"
+            android:label="@string/app_name" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="customButtonStyle">
+        <item name="android:backgroundTint">@color/btn_color</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">@dimen/button_corner_size</item>
+    </style>
+
+    <style name="roundedImageViewStyle">
+        <item name="cornerRadius">@dimen/image_corner_size</item>
+    </style>
+
+    <style name="roundedImage" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <item name="image_corner_size" type="dimen">50%</item>
+</resources>
