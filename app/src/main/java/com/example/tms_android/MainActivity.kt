@@ -25,8 +25,10 @@ class MainActivity : AppCompatActivity() {
 
         val recyclerView = findViewById<RecyclerView>(R.id.lessonsRecyclerView)
         val lessons = listOf(
+            LessonModel(16, 6),
             LessonModel(17, 6),
-            LessonModel(18, 3)
+            LessonModel(18, 3),
+            LessonModel(19, 2)
         )
         recyclerView.adapter = LessonAdapter(lessons) { lessonModel ->
             val intent = Intent(this, LessonTasksActivity::class.java)
@@ -56,9 +58,11 @@ class MainActivity : AppCompatActivity() {
 
         override fun onBindViewHolder(holder: ViewHolder, position: Int) {
             val lesson = lessons[position]
-            holder.title.text = holder.itemView.context.getString(R.string.lesson_name, lesson.number)
+            holder.title.text =
+                holder.itemView.context.getString(R.string.lesson_name, lesson.number)
             holder.subtitle.text = holder.itemView.context.getString(R.string.android_dev)
-            holder.badge.text = holder.itemView.context.getString(R.string.tasks_count, lesson.taskCount)
+            holder.badge.text =
+                holder.itemView.context.getString(R.string.tasks_count, lesson.taskCount)
             holder.itemView.setOnClickListener { onClick(lesson) }
         }
 

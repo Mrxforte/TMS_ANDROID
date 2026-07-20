@@ -1,3 +1,5 @@
+import org.gradle.kotlin.dsl.android
+
 plugins {
     alias(libs.plugins.android.application)
 }
@@ -31,6 +33,11 @@ android {
     }
 }
 
+android {
+    buildFeatures {
+        viewBinding = true
+    }
+}
 dependencies {
     implementation(libs.androidx.activity.ktx)
     implementation(libs.androidx.appcompat)

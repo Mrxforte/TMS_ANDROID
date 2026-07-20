@@ -11,15 +11,23 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.RecyclerView
-import com.example.tms_android.Lesson17TAsk1.Lesson17Task1
-import com.example.tms_android.Lesson17TAsk2.Lesson17Task2
-import com.example.tms_android.Lesson17TAsk3.Lesson17TAsk3
-import com.example.tms_android.Lesson17Task4.Lesson17Task4
-import com.example.tms_android.Lesson17Task5.Lesson17Task5
-import com.example.tms_android.Lesson17Task6.Lesson17Task6
-import com.example.tms_android.Lesson18Task1.Lesson18Task1
-import com.example.tms_android.Lesson18Task2.Lesson18Task2
-import com.example.tms_android.Lesson18Task3.Lesson18Task3
+import com.example.tms_android.Lesson16.Task1.Lesson16Task1
+import com.example.tms_android.Lesson16.Task2.Lesson16Task2
+import com.example.tms_android.Lesson16.Task3.Lesson16Task3
+import com.example.tms_android.Lesson16.Task4.Lesson16Task4
+import com.example.tms_android.Lesson16.Task5.Lesson16Task5
+import com.example.tms_android.Lesson16.Task6.Lesson16Task6
+import com.example.tms_android.Lesson17.Task1.Lesson17Task1
+import com.example.tms_android.Lesson17.Task2.Lesson17Task2
+import com.example.tms_android.Lesson17.Task3.Lesson17Task3
+import com.example.tms_android.Lesson17.Task4.Lesson17Task4
+import com.example.tms_android.Lesson17.Task5.Lesson17Task5
+import com.example.tms_android.Lesson17.Task6.Lesson17Task6
+import com.example.tms_android.Lesson18.Task1.Lesson18Task1
+import com.example.tms_android.Lesson18.Task2.Lesson18Task2
+import com.example.tms_android.Lesson18.Task3.Lesson18Task3
+import com.example.tms_android.Lesson19.Task1.Lesson19Task1
+import com.example.tms_android.Lesson19.Task2.Lesson19Task2
 
 class LessonTasksActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -39,8 +47,10 @@ class LessonTasksActivity : AppCompatActivity() {
         val comingSoonText = findViewById<TextView>(R.id.comingSoonText)
 
         val tasks = when (lessonNum) {
+            16 -> listOf(1, 2, 3, 4, 5, 6)
             17 -> (1..6).toList()
             18 -> listOf(1, 2, 3)
+            19 -> listOf(1, 2)
             else -> emptyList()
         }
 
@@ -49,10 +59,19 @@ class LessonTasksActivity : AppCompatActivity() {
             comingSoonText.visibility = View.GONE
             recyclerView.adapter = TaskAdapter(tasks) { taskNum ->
                 val activityClass = when (lessonNum) {
+                    16 -> when (taskNum) {
+                        1 -> Lesson16Task1::class.java
+                        2 -> Lesson16Task2::class.java
+                        3 -> Lesson16Task3::class.java
+                        4 -> Lesson16Task4::class.java
+                        5 -> Lesson16Task5::class.java
+                        6 -> Lesson16Task6::class.java
+                        else -> null
+                    }
                     17 -> when (taskNum) {
                         1 -> Lesson17Task1::class.java
                         2 -> Lesson17Task2::class.java
-                        3 -> Lesson17TAsk3::class.java
+                        3 -> Lesson17Task3::class.java
                         4 -> Lesson17Task4::class.java
                         5 -> Lesson17Task5::class.java
                         6 -> Lesson17Task6::class.java
@@ -62,6 +81,11 @@ class LessonTasksActivity : AppCompatActivity() {
                         1 -> Lesson18Task1::class.java
                         2 -> Lesson18Task2::class.java
                         3 -> Lesson18Task3::class.java
+                        else -> null
+                    }
+                    19 -> when (taskNum) {
+                        1 -> Lesson19Task1::class.java
+                        2 -> Lesson19Task2::class.java
                         else -> null
                     }
                     else -> null

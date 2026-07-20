@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Lesson17Task5.Lesson17Task5">
+    tools:context=".Lesson17.Task5.Lesson17Task5">
 
     <LinearLayout
         android:layout_width="match_parent"

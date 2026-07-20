@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="24dp"
-    tools:context=".Lesson18Task1.Lesson18Task1">
+    tools:context=".Lesson18.Task1.Lesson18Task1">
 
     <LinearLayout
         android:layout_marginHorizontal="32dp"

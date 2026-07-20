@@ -23,6 +23,12 @@
     <string name="log_out">Выйти</string>
     <string name="change_password">Изменить пароль</string>
     <string name="online">в сети</string>
+    <string name="lesson_16_task_1">Урок 16 Задание 1</string>
+    <string name="lesson_16_task_2">Урок 16 Задание 2</string>
+    <string name="lesson_16_task_3">Урок 16 Задание 3</string>
+    <string name="lesson_16_task_4">Урок 16 Задание 4</string>
+    <string name="lesson_16_task_5">Урок 16 Задание 5</string>
+    <string name="lesson_16_task_6">Урок 16 Задание 6</string>
     <string name="downloading">загрузка…</string>
     <string name="start_download">Начать загрузку</string>
     <string name="task6_title">Отличный контент</string>
@@ -38,8 +44,10 @@
     <string name="profile">Профиль</string>
     <string name="profile_name_format">Имя: %1$s</string>
     <string name="profile_age_format">Возраст: %1$d</string>
+    <string name="profile_email_format">Email: %1$s</string>
+    <string name="profile_password_format">Пароль: %1$s</string>
 
-    <string name="fragment_livecycle">Жизненный цикл фрагмента</string>
+    <string name="fragment_lifecycle">Жизненный цикл фрагмента</string>
     <string name="current_state">Текущее состояние: %1$s</string>
     <string name="logcat_hint">Проверьте Logcat для подробных логов!\nTAG: %1$s</string>
     <string name="logs_placeholder">Логи появятся здесь&#8230;</string>
@@ -51,4 +59,16 @@
     <string name="catalog_fragment">Экран каталога</string>
     <string name="cart_fragment">Экран корзины</string>
     <string name="already_on_fragment">Вы уже здесь!</string>
+    <string name="lesson_19_task_1">Урок 19 Задание 1</string>
+    <string name="lesson_19_task_2">Урок 19 Задание 2</string>
+    <string name="change_text">Изменить текст</string>
+    <string name="tab_the_button_to_change_this_text">Нажмите кнопку, чтобы изменить этот текст</string>
+    <string name="log_s">Лог %s</string>
+    <string name="navigate_to_next_screen">Перейти на следующий экран</string>
+    <string name="navigate_to_previous_screen">Вернуться на предыдущий экран</string>
+    <string name="contact_form">Контактная форма</string>
+    <string name="submit">Отправить</string>
+    <string name="email">Электронная почта</string>
+    <string name="password">Пароль</string>
+    <string name="we_added_permission_to_the_manifest_file_nto_access_the_internet">Мы добавили разрешение в файл манифеста\nдля доступа в интернет</string>
 </resources>
