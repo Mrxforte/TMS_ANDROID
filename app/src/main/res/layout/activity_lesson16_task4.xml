@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="?attr/colorSurfaceVariant"
-    tools:context=".Lesson16.Task4.Lesson16Task4">
+    tools:context=".Lessons.Lesson16.Task4.Lesson16Task4">
 
     <com.google.android.material.card.MaterialCardView
         android:layout_width="0dp"

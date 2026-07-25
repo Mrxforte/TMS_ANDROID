@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Lesson17.Task4.Lesson17Task4">
+    tools:context=".Lessons.Lesson17.Task4.Lesson17Task4">
 
     <com.google.android.material.imageview.ShapeableImageView
         android:layout_marginTop="16dp"

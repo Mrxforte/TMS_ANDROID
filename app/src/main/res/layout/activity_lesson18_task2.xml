@@ -7,7 +7,7 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragment_container"
-        android:name="com.example.tms_android.lesson18task2.LifecycleFragment"
+        android:name="com.example.tms_android.Lessons.Lesson18.Task2.LifecycleFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 

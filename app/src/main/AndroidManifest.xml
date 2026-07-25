@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -14,64 +15,97 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TMS_ANDROID">
         <activity
-            android:name=".Lesson16.Task4.ResultActivity"
+            android:name=".Lessons.Lesson20.HomeWork2.Lesson20HomeWork2"
             android:exported="false" />
         <activity
-            android:name=".Lesson16.Task3.ExampleScreen"
+            android:name=".Lessons.Lesson20.HomeWork1.Lesson20HomeWork1"
             android:exported="false" />
         <activity
-            android:name=".Lesson16.Task1.Lesson16Task1"
+            android:name=".Lessons.Lesson20.Task4.Lesson20Task4"
             android:exported="false" />
         <activity
-            android:name=".Lesson16.Task2.Lesson16Task2"
+            android:name=".Lessons.Lesson20.Task3.Lesson20Task3"
             android:exported="false" />
         <activity
-            android:name=".Lesson16.Task3.Lesson16Task3"
+            android:name=".Lessons.Lesson20.Task2.Lesson20Task2"
             android:exported="false" />
         <activity
-            android:name=".Lesson16.Task4.Lesson16Task4"
+            android:name=".Lessons.Lesson20.Task1.Lesson20Task1"
             android:exported="false" />
         <activity
-            android:name=".Lesson16.Task5.Lesson16Task5"
+            android:name=".Lessons.Lesson24.HomeWork1.Lesson24HomeWork1"
             android:exported="false" />
         <activity
-            android:name=".Lesson16.Task6.Lesson16Task6"
+            android:name=".Lessons.Lesson24.Task6.Lesson24Task6"
             android:exported="false" />
         <activity
-            android:name=".Lesson17.Task1.Lesson17Task1"
+            android:name=".Lessons.Lesson24.Task5.Lesson24Task5"
             android:exported="false" />
         <activity
-            android:name=".Lesson17.Task2.Lesson17Task2"
+            android:name=".Lessons.Lesson24.Task4.Lesson24Task4"
             android:exported="false" />
         <activity
-            android:name=".Lesson17.Task3.Lesson17Task3"
+            android:name=".Lessons.Lesson24.Task3.Lesson24Task3"
             android:exported="false" />
         <activity
-            android:name=".Lesson17.Task4.Lesson17Task4"
+            android:name=".Lessons.Lesson16.Task4.ResultActivity"
             android:exported="false" />
         <activity
-            android:name=".Lesson17.Task5.Lesson17Task5"
+            android:name=".Lessons.Lesson16.Task3.ExampleScreen"
             android:exported="false" />
         <activity
-            android:name=".Lesson17.Task6.Lesson17Task6"
+            android:name=".Lessons.Lesson16.Task1.Lesson16Task1"
             android:exported="false" />
         <activity
-            android:name=".Lesson18.Task1.Lesson18Task1"
+            android:name=".Lessons.Lesson16.Task2.Lesson16Task2"
             android:exported="false" />
         <activity
-            android:name=".Lesson18.Task1.ProfileActivity"
+            android:name=".Lessons.Lesson16.Task3.Lesson16Task3"
             android:exported="false" />
         <activity
-            android:name=".Lesson18.Task2.Lesson18Task2"
+            android:name=".Lessons.Lesson16.Task4.Lesson16Task4"
             android:exported="false" />
         <activity
-            android:name=".Lesson18.Task3.Lesson18Task3"
+            android:name=".Lessons.Lesson16.Task5.Lesson16Task5"
             android:exported="false" />
         <activity
-            android:name=".Lesson19.Task1.Lesson19Task1"
+            android:name=".Lessons.Lesson16.Task6.Lesson16Task6"
             android:exported="false" />
         <activity
-            android:name=".Lesson19.Task2.Lesson19Task2"
+            android:name=".Lessons.Lesson17.Task1.Lesson17Task1"
+            android:exported="false" />
+        <activity
+            android:name=".Lessons.Lesson17.Task2.Lesson17Task2"
+            android:exported="false" />
+        <activity
+            android:name=".Lessons.Lesson17.Task3.Lesson17Task3"
+            android:exported="false" />
+        <activity
+            android:name=".Lessons.Lesson17.Task4.Lesson17Task4"
+            android:exported="false" />
+        <activity
+            android:name=".Lessons.Lesson17.Task5.Lesson17Task5"
+            android:exported="false" />
+        <activity
+            android:name=".Lessons.Lesson17.Task6.Lesson17Task6"
+            android:exported="false" />
+        <activity
+            android:name=".Lessons.Lesson18.Task1.Lesson18Task1"
+            android:exported="false" />
+        <activity
+            android:name=".Lessons.Lesson18.Task1.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Lessons.Lesson18.Task2.Lesson18Task2"
+            android:exported="false" />
+        <activity
+            android:name=".Lessons.Lesson18.Task3.Lesson18Task3"
+            android:exported="false" />
+        <activity
+            android:name=".Lessons.Lesson19.Task1.Lesson19Task1"
+            android:exported="false" />
+        <activity
+            android:name=".Lessons.Lesson19.Task2.Lesson19Task2"
             android:exported="false" />
         <activity
             android:name=".LessonTasksActivity"
