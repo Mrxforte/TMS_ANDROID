@@ -14,7 +14,6 @@ import com.example.tms_android.R
 import kotlinx.coroutines.launch
 
 class Lesson16Task2 : AppCompatActivity() {
-    private val viewModel: MyViewModel by viewModels()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -24,25 +23,6 @@ class Lesson16Task2 : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        loadUI()
     }
 
-    private fun loadUI() {
-        val textView = findViewById<TextView>(R.id.status)
-        val pb = findViewById<ProgressBar>(R.id.progressBar)
-
-        lifecycleScope.launch {
-            viewModel.flow.collect {
-                if (it) {
-                    textView.text = "Loading"
-                    pb.visibility = View.VISIBLE
-                } else {
-                    textView.text = "Loaded"
-                    pb.visibility = View.INVISIBLE
-                }
-            }
-        }
-
-        viewModel.startLoading()
-    }
 }
