@@ -106,4 +106,11 @@
     <string name="lesson_24_homework_1">Lesson 24 Home Work 1</string>
     <string name="in_stock">In Stock</string>
     <string name="wif_status">Wif status</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="decrement">Decrement</string>
+    <string name="increment">Increment</string>
+    <string name="user_name">User Name</string>
+    <string name="user_email_placeholder">user@example.com</string>
+    <string name="register">Register</string>
 </resources>

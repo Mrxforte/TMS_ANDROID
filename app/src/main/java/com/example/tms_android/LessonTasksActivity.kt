@@ -34,11 +34,16 @@ import com.example.tms_android.Lessons.Lesson20.Task1.Lesson20Task1
 import com.example.tms_android.Lessons.Lesson20.Task2.Lesson20Task2
 import com.example.tms_android.Lessons.Lesson20.Task3.Lesson20Task3
 import com.example.tms_android.Lessons.Lesson20.Task4.Lesson20Task4
+import com.example.tms_android.Lessons.Lesson22.Task1.Lesson22Task1
+import com.example.tms_android.Lessons.Lesson22.Task2.Lesson22Task2
+import com.example.tms_android.Lessons.Lesson22.Task3.Lesson22Task3
 import com.example.tms_android.Lessons.Lesson24.HomeWork1.Lesson24HomeWork1
 import com.example.tms_android.Lessons.Lesson24.Task3.Lesson24Task3
 import com.example.tms_android.Lessons.Lesson24.Task4.Lesson24Task4
 import com.example.tms_android.Lessons.Lesson24.Task5.Lesson24Task5
 import com.example.tms_android.Lessons.Lesson24.Task6.Lesson24Task6
+import com.example.tms_android.Lessons.Lesson26.Task1.Lesson26Task1
+import com.example.tms_android.Lessons.Lesson27.Task1.Lesson27Task1
 
 class LessonTasksActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -63,7 +68,10 @@ class LessonTasksActivity : AppCompatActivity() {
             18 -> listOf(1, 2, 3)
             19 -> listOf(1, 2)
             20 -> listOf(1, 2, 3, 4, 5, 6)
+            22 -> listOf(1, 2, 3, 4, 5, 6)
             24 -> listOf(3, 4, 5, 6, 7)
+            26 -> listOf(1)
+            27 -> listOf(1)
             else -> emptyList()
         }
 
@@ -115,12 +123,29 @@ class LessonTasksActivity : AppCompatActivity() {
                         else -> null
                     }
 
+                    22 -> when (taskNum) {
+                        1 -> Lesson22Task1::class.java
+                        2 -> Lesson22Task2::class.java
+                        3 -> Lesson22Task3::class.java
+                        else -> null
+                    }
+
                     24 -> when (taskNum) {
                         3 -> Lesson24Task3::class.java
                         4 -> Lesson24Task4::class.java
                         5 -> Lesson24Task5::class.java
                         6 -> Lesson24Task6::class.java
                         7 -> Lesson24HomeWork1::class.java
+                        else -> null
+                    }
+
+                    26 -> when (taskNum) {
+                        1 -> Lesson26Task1::class.java
+                        else -> null
+                    }
+
+                    27 -> when (taskNum) {
+                        1 -> Lesson27Task1::class.java
                         else -> null
                     }
 

@@ -95,4 +95,6 @@
     <string name="lesson_20_homework_2">Урок 20 Домашнее задание 2</string>
     <string name="lesson_24_homework_1">Урок 24 Домашнее задание 1</string>
     <string name="in_stock">В наличии</string>
+    <string name="user_name">Имя пользователя</string>
+    <string name="user_email_placeholder">user@example.com</string>
 </resources>

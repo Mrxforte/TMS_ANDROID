@@ -15,6 +15,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TMS_ANDROID">
         <activity
+            android:name=".Lessons.Lesson26.Task1.Lesson26Task1"
+            android:exported="false" />
+        <activity
+            android:name=".Lessons.Lesson27.Task1.Lesson27Task1"
+            android:exported="false" />
+        <activity
             android:name=".Lessons.Lesson20.HomeWork2.Lesson20HomeWork2"
             android:exported="false" />
         <activity
@@ -120,6 +126,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Lessons.Lesson22.Task1.Lesson22Task1"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Lessons.Lesson22.Task2.Lesson22Task2"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Lessons.Lesson22.Task3.Lesson22Task3"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
     </application>
 
 </manifest>
