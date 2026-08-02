@@ -28,6 +28,8 @@ import com.example.tms_android.Lessons.Lesson18.Task2.Lesson18Task2
 import com.example.tms_android.Lessons.Lesson18.Task3.Lesson18Task3
 import com.example.tms_android.Lessons.Lesson19.Task1.Lesson19Task1
 import com.example.tms_android.Lessons.Lesson19.Task2.Lesson19Task2
+import com.example.tms_android.Lessons.Lesson19.HomeWork1.Lesson19HomeWork1
+import com.example.tms_android.Lessons.Lesson19.HomeWork2.Lesson19HomeWork2
 import com.example.tms_android.Lessons.Lesson20.HomeWork1.Lesson20HomeWork1
 import com.example.tms_android.Lessons.Lesson20.HomeWork2.Lesson20HomeWork2
 import com.example.tms_android.Lessons.Lesson20.Task1.Lesson20Task1
@@ -78,7 +80,7 @@ class LessonTasksActivity : AppCompatActivity() {
             16 -> listOf(1, 2, 3, 4, 5, 6)
             17 -> (1..6).toList()
             18 -> listOf(1, 2, 3)
-            19 -> listOf(1, 2)
+            19 -> listOf(1, 2, 3, 4)
             20 -> listOf(1, 2, 3, 4, 5, 6)
             21 -> listOf(1, 2, 3, 4, 5, 6, 7, 8)
             22 -> listOf(1, 2, 3, 4, 5, 6)
@@ -124,6 +126,8 @@ class LessonTasksActivity : AppCompatActivity() {
                     19 -> when (taskNum) {
                         1 -> Lesson19Task1::class.java
                         2 -> Lesson19Task2::class.java
+                        3 -> Lesson19HomeWork1::class.java
+                        4 -> Lesson19HomeWork2::class.java
                         else -> null
                     }
 
