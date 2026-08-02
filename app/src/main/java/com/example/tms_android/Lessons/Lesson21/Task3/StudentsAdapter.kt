@@ -19,7 +19,7 @@ class StudentsAdapter(val list: MutableList<StudentsModel>) :
         return StudentsViewHolder(view)
     }
 
-    @SuppressLint("SetTextI18n", "NotifyDataSetChanged")
+    @SuppressLint("SetTextI18n")
     override fun onBindViewHolder(
         holder: StudentsViewHolder,
         position: Int
@@ -28,15 +28,19 @@ class StudentsAdapter(val list: MutableList<StudentsModel>) :
         holder.itemView.findViewById<TextView>(R.id.studentName).text = student.name
         holder.itemView.findViewById<TextView>(R.id.buttonDelete).text = "Delete"
         holder.itemView.findViewById<TextView>(R.id.buttonDelete).setOnClickListener {
-            list.removeAt(position)
-            Toast.makeText(holder.itemView.context, "Student deleted", Toast.LENGTH_SHORT).show()
-            notifyDataSetChanged()
+            val currentPos = holder.bindingAdapterPosition
+            if (currentPos != RecyclerView.NO_POSITION) {
+                list.removeAt(currentPos)
+                notifyItemRemoved(currentPos)
+                notifyItemRangeChanged(currentPos, list.size)
+                Toast.makeText(holder.itemView.context, "Student deleted", Toast.LENGTH_SHORT).show()
+            }
         }
 
     }
 
     override fun getItemCount(): Int {
-        return if(list.isEmpty()) 1 else list.size
+        return list.size
     }
 
     inner class StudentsViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {

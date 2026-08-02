@@ -38,30 +38,6 @@ class SearchAdapter(val list: List<String>) : RecyclerView.Adapter<SearchAdapter
         notifyDataSetChanged()
     }
 
-    inner class SearchDiffCallback : DiffUtil.Callback<List<String>>() {
-        override fun getOldListSize(): Int {
-
-        }
-
-        override fun getNewListSize(): Int {
-            TODO("Not yet implemented")
-        }
-
-        override fun areItemsTheSame(
-            oldItemPosition: Int,
-            newItemPosition: Int
-        ): Boolean {
-            TODO("Not yet implemented")
-        }
-
-        override fun areContentsTheSame(
-            oldItemPosition: Int,
-            newItemPosition: Int
-        ): Boolean {
-            TODO("Not yet implemented")
-        }
-    }
-
     inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
     }
 }

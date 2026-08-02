@@ -35,7 +35,7 @@ class StudentAdapter(val studentsList: List<StudentModel>) :
     }
 
     override fun getItemCount(): Int {
-        return if (studentsList.isEmpty()) 1 else studentsList.size
+        return studentsList.size
     }
 
     inner class StudentViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
