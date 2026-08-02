@@ -47,6 +47,7 @@ dependencies {
     implementation("androidx.viewpager2:viewpager2:1.1.0")
     implementation(libs.androidx.remote.creation.core)
     implementation(libs.material)
+    implementation(libs.androidx.swiperefreshlayout)
 
     // Networking
     implementation(libs.retrofit)

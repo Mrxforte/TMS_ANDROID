@@ -114,15 +114,21 @@
             android:name=".Lessons.Lesson19.Task2.Lesson19Task2"
             android:exported="false" />
         <activity
-            android:name=".Lessons.Lesson19.HomeWork1.Lesson19HomeWork1"
-            android:exported="false" />
-        <activity
-            android:name=".Lessons.Lesson19.HomeWork2.Lesson19HomeWork2"
-            android:exported="false" />
-        <activity
             android:name=".LessonTasksActivity"
             android:exported="false"
             android:label="@string/app_name" />
+        <activity
+            android:name=".Lessons.Lesson22.HomeWork1.Lesson22HomeWork1"
+            android:exported="false" />
+        <activity
+            android:name=".Lessons.Lesson22.HomeWork2.Lesson22HomeWork2"
+            android:exported="false" />
+        <activity
+            android:name=".Lessons.Lesson22.HomeWork3.Lesson22HomeWork3"
+            android:exported="false" />
+        <activity
+            android:name=".Lessons.Lesson23.Task1.Lesson23Task1"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
