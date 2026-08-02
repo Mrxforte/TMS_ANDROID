@@ -127,6 +127,9 @@
             android:name=".Lessons.Lesson22.HomeWork3.Lesson22HomeWork3"
             android:exported="false" />
         <activity
+            android:name=".Lessons.Lesson23.Task1.Lesson23Task1"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

@@ -45,6 +45,7 @@ import com.example.tms_android.Lessons.Lesson21.HomeWork2.Lesson21HomeWork2
 import com.example.tms_android.Lessons.Lesson22.HomeWork1.Lesson22HomeWork1
 import com.example.tms_android.Lessons.Lesson22.HomeWork2.Lesson22HomeWork2
 import com.example.tms_android.Lessons.Lesson22.HomeWork3.Lesson22HomeWork3
+import com.example.tms_android.Lessons.Lesson23.Task1.Lesson23Task1
 import com.example.tms_android.Lessons.Lesson22.Task1.Lesson22Task1
 import com.example.tms_android.Lessons.Lesson22.Task2.Lesson22Task2
 import com.example.tms_android.Lessons.Lesson22.Task3.Lesson22Task3
@@ -81,6 +82,7 @@ class LessonTasksActivity : AppCompatActivity() {
             20 -> listOf(1, 2, 3, 4, 5, 6)
             21 -> listOf(1, 2, 3, 4, 5, 6, 7, 8)
             22 -> listOf(1, 2, 3, 4, 5, 6)
+            23 -> listOf(1)
             24 -> listOf(3, 4, 5, 6, 7)
             26 -> listOf(1)
             27 -> listOf(1)
@@ -154,6 +156,11 @@ class LessonTasksActivity : AppCompatActivity() {
                         4 -> Lesson22HomeWork1::class.java
                         5 -> Lesson22HomeWork2::class.java
                         6 -> Lesson22HomeWork3::class.java
+                        else -> null
+                    }
+
+                    23 -> when (taskNum) {
+                        1 -> Lesson23Task1::class.java
                         else -> null
                     }
 
