@@ -28,8 +28,6 @@ import com.example.tms_android.Lessons.Lesson18.Task2.Lesson18Task2
 import com.example.tms_android.Lessons.Lesson18.Task3.Lesson18Task3
 import com.example.tms_android.Lessons.Lesson19.Task1.Lesson19Task1
 import com.example.tms_android.Lessons.Lesson19.Task2.Lesson19Task2
-import com.example.tms_android.Lessons.Lesson19.HomeWork1.Lesson19HomeWork1
-import com.example.tms_android.Lessons.Lesson19.HomeWork2.Lesson19HomeWork2
 import com.example.tms_android.Lessons.Lesson20.HomeWork1.Lesson20HomeWork1
 import com.example.tms_android.Lessons.Lesson20.HomeWork2.Lesson20HomeWork2
 import com.example.tms_android.Lessons.Lesson20.Task1.Lesson20Task1
@@ -44,6 +42,9 @@ import com.example.tms_android.Lessons.Lesson21.Task5.Lesson21Task5
 import com.example.tms_android.Lessons.Lesson21.Task6.Lesson21Task6
 import com.example.tms_android.Lessons.Lesson21.HomeWork1.Lesson21HomeWork1
 import com.example.tms_android.Lessons.Lesson21.HomeWork2.Lesson21HomeWork2
+import com.example.tms_android.Lessons.Lesson22.HomeWork1.Lesson22HomeWork1
+import com.example.tms_android.Lessons.Lesson22.HomeWork2.Lesson22HomeWork2
+import com.example.tms_android.Lessons.Lesson22.HomeWork3.Lesson22HomeWork3
 import com.example.tms_android.Lessons.Lesson22.Task1.Lesson22Task1
 import com.example.tms_android.Lessons.Lesson22.Task2.Lesson22Task2
 import com.example.tms_android.Lessons.Lesson22.Task3.Lesson22Task3
@@ -76,7 +77,7 @@ class LessonTasksActivity : AppCompatActivity() {
             16 -> listOf(1, 2, 3, 4, 5, 6)
             17 -> (1..6).toList()
             18 -> listOf(1, 2, 3)
-            19 -> listOf(1, 2, 3, 4)
+            19 -> listOf(1, 2)
             20 -> listOf(1, 2, 3, 4, 5, 6)
             21 -> listOf(1, 2, 3, 4, 5, 6, 7, 8)
             22 -> listOf(1, 2, 3, 4, 5, 6)
@@ -121,8 +122,6 @@ class LessonTasksActivity : AppCompatActivity() {
                     19 -> when (taskNum) {
                         1 -> Lesson19Task1::class.java
                         2 -> Lesson19Task2::class.java
-                        3 -> Lesson19HomeWork1::class.java
-                        4 -> Lesson19HomeWork2::class.java
                         else -> null
                     }
 
@@ -152,6 +151,9 @@ class LessonTasksActivity : AppCompatActivity() {
                         1 -> Lesson22Task1::class.java
                         2 -> Lesson22Task2::class.java
                         3 -> Lesson22Task3::class.java
+                        4 -> Lesson22HomeWork1::class.java
+                        5 -> Lesson22HomeWork2::class.java
+                        6 -> Lesson22HomeWork3::class.java
                         else -> null
                     }
 
