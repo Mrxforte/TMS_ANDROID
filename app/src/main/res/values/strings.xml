@@ -113,4 +113,6 @@
     <string name="user_name">User Name</string>
     <string name="user_email_placeholder">user@example.com</string>
     <string name="register">Register</string>
+    <string name="task_done">Task Done</string>
+    <string name="task_name1">Task name</string>
 </resources>

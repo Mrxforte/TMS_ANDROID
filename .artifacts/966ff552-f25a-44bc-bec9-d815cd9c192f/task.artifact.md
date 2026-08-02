@@ -1,0 +1,8 @@
+- [x] Fix Task List for Lesson 21
+    - [x] Add Lesson 21 to `LessonTasksActivity.kt`
+- [x] Implement "Add Student" UI in `Lesson21Task1`
+    - [x] Update `StudentModel.kt` (`rate` to `var`)
+    - [x] Update `activity_lesson21_task1.xml` (add EditTexts and Button)
+    - [x] Update `StudentAdapter.kt` (ViewHolder caching, click listener, "No data")
+    - [x] Update `Lesson21Task1.kt` (MutableList, Add logic)
+- [x] Verify build and behavior

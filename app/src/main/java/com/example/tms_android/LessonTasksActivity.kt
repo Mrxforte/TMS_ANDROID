@@ -34,6 +34,10 @@ import com.example.tms_android.Lessons.Lesson20.Task1.Lesson20Task1
 import com.example.tms_android.Lessons.Lesson20.Task2.Lesson20Task2
 import com.example.tms_android.Lessons.Lesson20.Task3.Lesson20Task3
 import com.example.tms_android.Lessons.Lesson20.Task4.Lesson20Task4
+import com.example.tms_android.Lessons.Lesson21.Task1.Lesson21Task1
+import com.example.tms_android.Lessons.Lesson21.Task2.Lesson21Task2
+import com.example.tms_android.Lessons.Lesson21.Task3.Lesson21Task3
+import com.example.tms_android.Lessons.Lesson21.Task4.Lesson21Task4
 import com.example.tms_android.Lessons.Lesson22.Task1.Lesson22Task1
 import com.example.tms_android.Lessons.Lesson22.Task2.Lesson22Task2
 import com.example.tms_android.Lessons.Lesson22.Task3.Lesson22Task3
@@ -68,6 +72,7 @@ class LessonTasksActivity : AppCompatActivity() {
             18 -> listOf(1, 2, 3)
             19 -> listOf(1, 2)
             20 -> listOf(1, 2, 3, 4, 5, 6)
+            21 -> listOf(1, 2, 3, 4, 5, 6)
             22 -> listOf(1, 2, 3, 4, 5, 6)
             24 -> listOf(3, 4, 5, 6, 7)
             26 -> listOf(1)
@@ -120,6 +125,14 @@ class LessonTasksActivity : AppCompatActivity() {
                         4 -> Lesson20Task4::class.java
                         5 -> Lesson20HomeWork1::class.java
                         6 -> Lesson20HomeWork2::class.java
+                        else -> null
+                    }
+
+                    21 -> when (taskNum) {
+                        1 -> Lesson21Task1::class.java
+                        2 -> Lesson21Task2::class.java
+                        3 -> Lesson21Task3::class.java
+                        4 -> Lesson21Task4::class.java
                         else -> null
                     }
 

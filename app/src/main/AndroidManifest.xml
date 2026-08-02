@@ -138,6 +138,22 @@
             android:name=".Lessons.Lesson22.Task3.Lesson22Task3"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Lessons.Lesson21.Task1.Lesson21Task1"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Lessons.Lesson21.Task2.Lesson21Task2"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Lessons.Lesson21.Task3.Lesson21Task3"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Lessons.Lesson21.Task4.Lesson21Task4"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
     </application>
 
 </manifest>

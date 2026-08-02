@@ -30,6 +30,7 @@ class MainActivity : AppCompatActivity() {
             LessonModel(18, 3),
             LessonModel(19, 2),
             LessonModel(20, 6),
+            LessonModel(21, 6),
             LessonModel(22, 6),
             LessonModel(24, 5),
             LessonModel(26, 6),

@@ -1,0 +1,5 @@
+- [x] Update `TaskModel.kt` to allow mutability (`var isDone`)
+- [x] Refactor `TaskAdapter.kt` with clean checkbox logic
+- [x] Add visual feedback (strikethrough and color change)
+- [x] Fix recycling bugs in CheckBox listener
+- [x] Verify build and functionality
