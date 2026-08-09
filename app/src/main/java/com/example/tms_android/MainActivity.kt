@@ -32,7 +32,9 @@ class MainActivity : AppCompatActivity() {
             LessonModel(20, 6),
             LessonModel(21, 6),
             LessonModel(22, 6),
+            LessonModel(23, 1),
             LessonModel(24, 5),
+            LessonModel(25, 7),
             LessonModel(26, 6),
             LessonModel(27, 1)
         )

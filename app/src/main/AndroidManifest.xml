@@ -51,6 +51,27 @@
             android:name=".Lessons.Lesson24.Task4.Lesson24Task4"
             android:exported="false" />
         <activity
+            android:name=".Lessons.Lesson25.Task1.Lesson25Task1"
+            android:exported="false" />
+        <activity
+            android:name=".Lessons.Lesson25.Task2.Lesson25Task2"
+            android:exported="false" />
+        <activity
+            android:name=".Lessons.Lesson25.Task3.Lesson25Task3"
+            android:exported="false" />
+        <activity
+            android:name=".Lessons.Lesson25.Task4.Lesson25Task4"
+            android:exported="false" />
+        <activity
+            android:name=".Lessons.Lesson25.Task5.Lesson25Task5"
+            android:exported="false" />
+        <activity
+            android:name=".Lessons.Lesson25.Task6.Lesson25Task6"
+            android:exported="false" />
+        <activity
+            android:name=".Lessons.Lesson25.Task7.Lesson25Task7"
+            android:exported="false" />
+        <activity
             android:name=".Lessons.Lesson24.Task3.Lesson24Task3"
             android:exported="false" />
         <activity
