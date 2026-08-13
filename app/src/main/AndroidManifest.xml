@@ -15,6 +15,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TMS_ANDROID">
         <activity
+            android:name=".Lessons.Lesson24.Task1.Lesson24Task1"
+            android:exported="false" />
+        <activity
+            android:name=".Lessons.Lesson24.Task2.Lesson24Task2"
+            android:exported="false" />
+        <activity
+            android:name=".Lessons.Lesson30.Lesson30Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Lessons.Lesson28.Lesson28Activity"
+            android:exported="false" />
+        <activity
             android:name=".Lessons.Lesson26.Task1.Lesson26Task1"
             android:exported="false" />
         <activity

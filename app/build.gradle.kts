@@ -49,6 +49,11 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.swiperefreshlayout)
 
+    // Room
+    implementation(libs.room.runtime)
+    implementation(libs.room.ktx)
+    annotationProcessor(libs.room.compiler)
+
     // Networking
     implementation(libs.retrofit)
     implementation(libs.retrofit.converter.gson)

@@ -49,14 +49,16 @@ class Lesson24Task3 : AppCompatActivity() {
 
     private fun startCounting() {
         progressJob = lifecycleScope.launch {
-            for (i in 1..10) {
-                delay(1000)
-                val currentProgress = i * 10
-                binding.progressBar.setProgress(currentProgress)
-                binding.title.text = getString(R.string.loading_percent, currentProgress)
+            try {
+                for (i in 10 downTo 0) {
+                    delay(1000)
+                    binding.progressBar.progress = (10 - i) * 10
+                    binding.title.text = "Count: $i"
+                }
+                binding.title.text = "Done!"
+            } catch (e: Exception) {
+                binding.title.text = "Операция отменена"
             }
-            binding.title.text = getString(R.string.operation_completed)
-            binding.button.visibility = View.GONE
         }
     }
 }

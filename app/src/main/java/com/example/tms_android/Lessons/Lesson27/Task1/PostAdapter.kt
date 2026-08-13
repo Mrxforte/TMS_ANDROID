@@ -5,12 +5,13 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.tms_android.databinding.ItemPostBinding
 
-class PostAdapter(private var posts: List<Post>) :
-    RecyclerView.Adapter<PostAdapter.PostViewHolder>() {
+class PostAdapter(private var posts: List<Post>) : RecyclerView.Adapter<PostAdapter.PostViewHolder>() {
 
-    fun updateData(newPosts: List<Post>) {
-        posts = newPosts
-        notifyDataSetChanged()
+    class PostViewHolder(private val binding: ItemPostBinding) : RecyclerView.ViewHolder(binding.root) {
+        fun bind(post: Post) {
+            binding.tvPostId.text = "ID: ${post.id}"
+            binding.tvPostTitle.text = post.title
+        }
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PostViewHolder {
@@ -24,10 +25,8 @@ class PostAdapter(private var posts: List<Post>) :
 
     override fun getItemCount(): Int = posts.size
 
-    class PostViewHolder(private val binding: ItemPostBinding) :
-        RecyclerView.ViewHolder(binding.root) {
-        fun bind(post: Post) {
-            binding.tvPostTitle.text = post.title
-        }
+    fun updatePosts(newPosts: List<Post>) {
+        posts = newPosts
+        notifyDataSetChanged()
     }
 }

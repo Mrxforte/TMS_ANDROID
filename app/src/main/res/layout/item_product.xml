@@ -14,16 +14,16 @@
         android:padding="16dp">
 
         <TextView
-            android:id="@+id/tvPostId"
-            android:layout_width="wrap_content"
+            android:id="@+id/tvProductTitle"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
-            android:textSize="14sp"
+            android:textSize="18sp"
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/tvPostTitle"
-            android:layout_width="match_parent"
+            android:id="@+id/tvProductPrice"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
             android:textColor="@color/black"

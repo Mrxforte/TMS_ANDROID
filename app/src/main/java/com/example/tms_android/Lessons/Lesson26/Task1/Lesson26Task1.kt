@@ -3,6 +3,7 @@ package com.example.tms_android.Lessons.Lesson26.Task1
 import android.os.Bundle
 import android.view.WindowInsets
 import android.widget.Button
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -26,12 +27,6 @@ class Lesson26Task1 : AppCompatActivity() {
     }
 
     private fun loadUI() {
-        var container = findViewById<FragmentContainerView>(R.id.myContainer)
-        var button = findViewById<Button>(R.id.myButton)
 
-        button.setOnClickListener {
-            supportFragmentManager.beginTransaction().replace(R.id.myContainer, HomeFragment())
-                .commit()
-        }
     }
 }

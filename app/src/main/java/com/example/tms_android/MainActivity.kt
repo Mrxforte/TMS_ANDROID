@@ -28,13 +28,16 @@ class MainActivity : AppCompatActivity() {
             LessonModel(16, 6),
             LessonModel(17, 6),
             LessonModel(18, 3),
-            LessonModel(19, 2),
+            LessonModel(19, 4),
             LessonModel(20, 6),
-            LessonModel(21, 6),
+            LessonModel(21, 8),
             LessonModel(22, 6),
-            LessonModel(24, 5),
-            LessonModel(26, 6),
-            LessonModel(27, 1)
+            LessonModel(23, 1),
+            LessonModel(24, 7),
+            LessonModel(26, 1),
+            LessonModel(27, 1),
+            LessonModel(28, 1),
+            LessonModel(30, 1)
         )
         recyclerView.adapter = LessonAdapter(lessons) { lessonModel ->
             val intent = Intent(this, LessonTasksActivity::class.java)

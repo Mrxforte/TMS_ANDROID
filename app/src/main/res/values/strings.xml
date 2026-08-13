@@ -115,4 +115,5 @@
     <string name="register">Register</string>
     <string name="task_done">Task Done</string>
     <string name="task_name1">Task name</string>
+    <string name="no_tasks_in_the_lesson">No tasks in the lesson</string>
 </resources>
