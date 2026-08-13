@@ -2,7 +2,7 @@
 
 [![Platform](https://img.shields.io/badge/Platform-Android-green.svg)](https://developer.android.com)
 [![Kotlin](https://img.shields.io/badge/Language-Kotlin-orange.svg)](https://kotlinlang.org)
-[![Target SDK](https://img.shields.io/badge/Target%20SDK-37-blue.svg)](https://developer.android.com/about/versions/15)
+[![Target SDK](https://img.shields.io/badge/Target%20SDK-37-blue.svg)](https://developer.android.com)
 
 [🇬🇧 English Version](#english-version) | [🇷🇺 Русская версия](#русская-версия)
 
@@ -15,38 +15,34 @@
 This repository contains a structured collection of Android development lessons and tasks, following the **TMS (TeachMeSkills)** curriculum. The project showcases practical implementations of modern Android technologies, UI/UX designs, and architectural patterns.
 
 ### 🛠 Tech Stack
-*   **Language:** Kotlin 2.2.10
+*   **Language:** Kotlin
 *   **Minimum SDK:** 26 (Android 8.0)
 *   **Target SDK:** 37 (Android 15)
 *   **UI Framework:** Material Design 3 (M3)
-*   **Libraries:** 
-    *   `ViewBinding` (Safe UI access)
-    *   `Coroutines` (Asynchronous tasks)
-    *   `ViewPager2` (Swipable views)
-    *   `RecyclerView` (Efficient lists)
-    *   `ConstraintLayout` (Responsive layouts)
+*   **Core Libraries:** 
+    *   `ViewBinding` - Type-safe UI interaction
+    *   `Coroutines` - Asynchronous programming & thread switching
+    *   `Retrofit` & `OkHttp` - REST API integration
+    *   `Room` - Local persistence & SQLite abstraction
+    *   `RecyclerView` - Optimized list and grid displays
+    *   `Jetpack Architecture Components` - ViewModel & LiveData
 
-### 📂 Folder Structure
-The project is organized into logical packages grouped by lesson number:
+### 📂 Key Lessons & Features
+The project is organized into logical packages:
 
-```text
-app/src/main/java/com/example/tms_android/
-├── Lessons/                # Root directory for all study content
-│   ├── Lesson16/           # Lesson 16: Activity Lifecycle & Basics
-│   │   └── Task1..6/       # Individual tasks
-│   ├── Lesson17/           # Lesson 17: UI Components & Buttons
-│   ├── Lesson18/           # Lesson 18: Fragments & Navigation
-│   ├── Lesson19/           # Lesson 19: Advanced UI & Interaction
-│   ├── Lesson20/           # Lesson 20: Lists (RecyclerView) & Adapters
-│   └── Lesson24/           # Lesson 24: Coroutines & Async Operations
-└── MainActivity.kt         # Launcher entry point with Lesson List
-```
+*   **Lesson 16-17**: Activity Lifecycle, Intent Basics, and Material UI components.
+*   **Lesson 18-19**: Fragments, Bottom Navigation, and ViewPager2.
+*   **Lesson 20-22**: Advanced Lists (RecyclerView) and UI/UX patterns.
+*   **Lesson 23**: State Management using `ViewModel` and `LiveData` (Shopping List).
+*   **Lesson 24**: Mastering Coroutines (Parallel loading, Error handling, `withContext`, Cancellation).
+*   **Lesson 27-28**: Networking with **Retrofit**. Fetching posts and products from REST APIs and displaying them in optimized Grids.
+*   **Lesson 30**: Offline storage using **Room Database**. Implementation of DAOs, Entities, and Singleton Database pattern.
 
 ### ⚙️ How to Run
 1.  Clone the repository: `git clone https://github.com/Mrxforte/TMS_ANDROID.git`
-2.  Open the project in **Android Studio (Ladybug or newer)**.
-3.  Let Gradle sync finish.
-4.  Run on an emulator or physical device (API 26+).
+2.  Open in **Android Studio**.
+3.  Ensure internet access for API calls.
+4.  Run on an emulator or device (API 26+).
 
 ---
 
@@ -54,42 +50,32 @@ app/src/main/java/com/example/tms_android/
 ## 🇷🇺 Русская версия
 
 ### 🚀 Обзор проекта
-Этот репозиторий представляет собой структурированную коллекцию уроков и заданий по разработке под Android в рамках учебной программы **TMS (TeachMeSkills)**. Проект демонстрирует практическое применение современных технологий Android, проектирование UI/UX и использование архитектурных паттернов.
+Этот репозиторий содержит структурированную коллекцию уроков и заданий по разработке под Android в рамках программы **TMS (TeachMeSkills)**. Проект демонстрирует реализацию современных технологий, архитектурных подходов и UI решений.
 
 ### 🛠 Стек технологий
-*   **Язык:** Kotlin 2.2.10
-*   **Minimum SDK:** 26 (Android 8.0)
-*   **Target SDK:** 37 (Android 15)
-*   **UI Фреймворк:** Material Design 3 (M3)
+*   **Язык:** Kotlin
 *   **Библиотеки:** 
-    *   `ViewBinding` (Безопасный доступ к UI)
-    *   `Coroutines` (Асинхронные задачи)
-    *   `ViewPager2` (Свайп-экраны)
-    *   `RecyclerView` (Эффективные списки)
-    *   `ConstraintLayout` (Адаптивные макеты)
+    *   `ViewBinding` - Безопасная работа с View
+    *   `Coroutines` - Асинхронность и управление потоками
+    *   `Retrofit` & `OkHttp` - Работа с сетевыми API
+    *   `Room` - Локальная база данных
+    *   `RecyclerView` - Отображение списков и сеток (Grid)
+    *   `Architecture Components` - Использование ViewModel и LiveData
 
-### 📂 Структура папок
-Проект организован в логические пакеты, сгруппированные по номерам уроков:
-
-```text
-app/src/main/java/com/example/tms_android/
-├── Lessons/                # Корневая папка всех учебных материалов
-│   ├── Lesson16/           # Урок 16: Жизненный цикл Activity и основы
-│   │   └── Task1..6/       # Индивидуальные задания
-│   ├── Lesson17/           # Урок 17: Компоненты UI и кнопки
-│   ├── Lesson18/           # Урок 18: Фрагменты и навигация
-│   ├── Lesson19/           # Урок 19: Продвинутый UI и взаимодействие
-│   ├── Lesson20/           # Урок 20: Списки (RecyclerView) и адаптеры
-│   └── Lesson24/           # Урок 24: Coroutines и асинхронные операции
-└── MainActivity.kt         # Точка входа со списком уроков
-```
+### 📂 Основные темы и уроки
+*   **Уроки 16-17**: Жизненный цикл Activity, Intent и базовые компоненты Material UI.
+*   **Уроки 18-19**: Фрагменты, нижняя навигация и ViewPager2.
+*   **Уроки 20-22**: Продвинутая работа со списками и UI паттернами.
+*   **Урок 23**: Управление состоянием через `ViewModel` (Список покупок).
+*   **Урок 24**: Глубокое изучение Coroutines (Параллельная загрузка, обработка ошибок, переключение потоков).
+*   **Уроки 27-28**: Работа с сетью через **Retrofit**. Загрузка данных из внешних API и отображение в сетках.
+*   **Урок 30**: Локальное хранение данных с использованием **Room Database**.
 
 ### ⚙️ Как запустить
 1.  Клонируйте репозиторий: `git clone https://github.com/Mrxforte/TMS_ANDROID.git`
-2.  Откройте проект в **Android Studio (версия Ladybug или новее)**.
-3.  Дождитесь завершения синхронизации Gradle.
-4.  Запустите на эмуляторе или реальном устройстве (API 26+).
+2.  Откройте в **Android Studio**.
+3.  Дождитесь синхронизации Gradle и запустите на устройстве (API 26+).
 
 ---
 
-© 2024 [Azamat] - TMS Android Development Course
+© 2024-2026 [Azamat] - TMS Android Development Course
