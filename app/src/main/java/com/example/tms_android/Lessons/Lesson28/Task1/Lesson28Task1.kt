@@ -1,4 +1,4 @@
-package com.example.tms_android.Lessons.Lesson28
+package com.example.tms_android.Lessons.Lesson28.Task1
 
 import android.os.Bundle
 import android.widget.Toast
@@ -6,12 +6,15 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.tms_android.Lessons.Lesson28.Product
+import com.example.tms_android.Lessons.Lesson28.ProductAdapter
+import com.example.tms_android.Lessons.Lesson28.RetrofitInstance
 import com.example.tms_android.databinding.ActivityLesson28Binding
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
-class Lesson28Activity : AppCompatActivity() {
+class Lesson28Task1 : AppCompatActivity() {
 
     private lateinit var binding: ActivityLesson28Binding
     private lateinit var adapter: ProductAdapter
@@ -46,12 +49,12 @@ class Lesson28Activity : AppCompatActivity() {
                     val products = response.body() ?: emptyList()
                     adapter.updateProducts(products)
                 } else {
-                    Toast.makeText(this@Lesson28Activity, "Error: ${response.code()}", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this@Lesson28Task1, "Error: ${response.code()}", Toast.LENGTH_SHORT).show()
                 }
             }
 
             override fun onFailure(call: Call<List<Product>>, t: Throwable) {
-                Toast.makeText(this@Lesson28Activity, "Failure: ${t.message}", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this@Lesson28Task1, "Failure: ${t.message}", Toast.LENGTH_SHORT).show()
             }
         })
     }

@@ -1,4 +1,4 @@
-package com.example.tms_android.Lessons.Lesson30
+package com.example.tms_android.Lessons.Lesson30.Task1
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -11,13 +11,14 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.RecyclerView
-import com.example.tms_android.R
+import com.example.tms_android.Lessons.Lesson30.AppDatabase
+import com.example.tms_android.Lessons.Lesson30.ProductEntity
 import com.example.tms_android.databinding.ActivityLesson30Binding
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 
-class Lesson30Activity : AppCompatActivity() {
+class Lesson30Task1 : AppCompatActivity() {
 
     private lateinit var binding: ActivityLesson30Binding
     private lateinit var db: AppDatabase

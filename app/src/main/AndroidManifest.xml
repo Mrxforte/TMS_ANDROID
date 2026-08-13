@@ -21,10 +21,10 @@
             android:name=".Lessons.Lesson24.Task2.Lesson24Task2"
             android:exported="false" />
         <activity
-            android:name=".Lessons.Lesson30.Lesson30Activity"
+            android:name=".Lessons.Lesson30.Task1.Lesson30Task1"
             android:exported="false" />
         <activity
-            android:name=".Lessons.Lesson28.Lesson28Activity"
+            android:name=".Lessons.Lesson28.Task1.Lesson28Task1"
             android:exported="false" />
         <activity
             android:name=".Lessons.Lesson26.Task1.Lesson26Task1"

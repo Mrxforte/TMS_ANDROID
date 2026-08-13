@@ -60,8 +60,8 @@ import com.example.tms_android.Lessons.Lesson24.Task5.Lesson24Task5
 import com.example.tms_android.Lessons.Lesson24.Task6.Lesson24Task6
 import com.example.tms_android.Lessons.Lesson26.Task1.Lesson26Task1
 import com.example.tms_android.Lessons.Lesson27.Task1.Lesson27Task1
-import com.example.tms_android.Lessons.Lesson28.Lesson28Activity
-import com.example.tms_android.Lessons.Lesson30.Lesson30Activity
+import com.example.tms_android.Lessons.Lesson28.Task1.Lesson28Task1
+import com.example.tms_android.Lessons.Lesson30.Task1.Lesson30Task1
 
 class LessonTasksActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -196,12 +196,12 @@ class LessonTasksActivity : AppCompatActivity() {
                     }
 
                     28 -> when (taskNum) {
-                        1 -> Lesson28Activity::class.java
+                        1 -> Lesson28Task1::class.java
                         else -> null
                     }
 
                     30 -> when (taskNum) {
-                        1 -> Lesson30Activity::class.java
+                        1 -> Lesson30Task1::class.java
                         else -> null
                     }
 
